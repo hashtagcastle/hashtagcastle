@@ -38,17 +38,17 @@ $("a").mouseup(function(){
 // Google Maps Scripts
 // When the window has finished loading create our google map below
 google.maps.event.addDomListener(window, 'load', init);
+var _lat = 47.5924318, _long = -122.3131125;
 
 function init() {
     // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
     var mapOptions = {
         // How zoomed in you want the map to start at (always required)
-        zoom: 15,
+        zoom: 17,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(47.5924318,-122.3154125), // The Castle
-        // https://www.google.com/maps/place/The+Castle/@47.5924318,-122.3154125,17z/data=!3m1!4b1!4m2!3m1!1s0x54906a93ff6cbb6f:0xbcbf0768533980ce
+        center: new google.maps.LatLng(_lat,_long), // New York
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
@@ -176,7 +176,7 @@ function init() {
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     var image = 'img/map-marker.png';
-    var myLatLng = new google.maps.LatLng(40.6700, -73.9400);
+    var myLatLng = new google.maps.LatLng(_lat, _long);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
         map: map,
