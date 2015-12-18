@@ -1,0 +1,7 @@
+.instagram-avatar {
+	border-radius: 50%;
+    border: 1px solid rgba(255,255,255,.2);
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}

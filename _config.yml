@@ -22,6 +22,23 @@ color:
 # Footer settings
 footer: "#Castle"
 
+about_castle: "#Castle is a place where people can come together and themselves."
+profiles:
+  - name: "Aaron"
+    instagram: "ammobear"
+    github: "AmmoBear"
+    about: "Aaron is a Software Engineer at Azure &mdash;  Microsoft's Cloud Infrastructure for deploying packaged services on demand."
+
+  - name: "Jamie"
+    instagram: "jamiechung"
+    github: "JamieChung"
+    about: "Jamie is a Program Manager at Bing Ads &mdash; The primary montezation arm for the search engine: Bing."
+
+  - name: "Ian"
+    instagram: "middleclassian"
+    github: "iandvt"
+    about: "Ian is a Software Engineer at Mission Control &mdash; Microsoft's dashboard for visualizing the health of Windows 10."
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   # - title: twitter
