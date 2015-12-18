@@ -1,0 +1,40 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: "#Castle - hashtagcastle.com"
+email: me@jamiechung.me
+description: "# CHYEAH!"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://hashtagcastle.com" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+github_username:  hashtagcastle
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Footer settings
+footer: "#Castle"
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  # - title: twitter
+  #   url: https://twitter.com/SBootstrap
+  # - title: facebook
+  #   url:
+  # - title: stack-overflow
+  #   url: http://stackoverflow.com/questions/tagged/jekyll
+  # - title: bitbucket
+  #   url: http://bitbucket.org/jekyll
+  - title: github
+    url: https://github.com/hashtagcastle
+
+# Build settings
+markdown: kramdown
+permalink: pretty
