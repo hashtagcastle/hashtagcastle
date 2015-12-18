@@ -47,7 +47,8 @@ function init() {
         zoom: 15,
 
         // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(40.6700, -73.9400), // New York
+        center: new google.maps.LatLng(47.5924318,-122.3154125), // The Castle
+        // https://www.google.com/maps/place/The+Castle/@47.5924318,-122.3154125,17z/data=!3m1!4b1!4m2!3m1!1s0x54906a93ff6cbb6f:0xbcbf0768533980ce
 
         // Disables the default Google Maps UI components
         disableDefaultUI: true,
