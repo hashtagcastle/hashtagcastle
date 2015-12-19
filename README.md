@@ -3,6 +3,9 @@ Jekyll theme based on [Grayscale bootstrap theme ](http://ironsummitmedia.github
 
 ## How to get setup on localhost
 * Clone repo
+```
+git clone https://github.com/hashtagcastle/hashtagcastle.git
+```
 * Install Jekyll
 ```
 gem install jekyll
