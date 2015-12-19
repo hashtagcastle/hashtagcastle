@@ -2,18 +2,16 @@
 Jekyll theme based on [Grayscale bootstrap theme ](http://ironsummitmedia.github.io/startbootstrap-grayscale/)
 
 ## How to get setup on localhost
-* Clone repo
 ```
-git clone https://github.com/hashtagcastle/hashtagcastle.git
-```
-* Install Jekyll
-```
-gem install jekyll
-```
-* Serve from http://localhost:4000
-```
-cd hashtagcastle
-jekyll serve
+# Clone repo
+$ git clone https://github.com/hashtagcastle/hashtagcastle.git
+$ cd hashtagcastle
+
+# Install Jekyll
+$ gem install jekyll
+
+# Serve from http://localhost:4000
+$ jekyll serve
 ```
 
 ## Things to know:
