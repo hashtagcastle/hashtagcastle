@@ -16,4 +16,9 @@ cd hashtagcastle
 jekyll serve
 ```
 
-For more details, read the [documentation](http://jekyllrb.com/)
+## Things to know:
+* Any commit to `gh-pages` branch will trigger deployment to main website
+
+## Links of interest:
+* [Jekyll documentation](http://jekyllrb.com/)
+* [GitHub pages](https://help.github.com/categories/github-pages-basics/)
