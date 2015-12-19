@@ -27,17 +27,17 @@ profiles:
   - name: "Aaron"
     instagram: "ammobear"
     github: "AmmoBear"
-    about: "Aaron is a Software Engineer at Azure &mdash;  Microsoft's Cloud Infrastructure for deploying packaged services on demand."
+    about: "Aaron is a Software Engineer at Azure Marketplace &mdash; Microsoft's UI platform for deploying Azure services."
 
   - name: "Jamie"
     instagram: "jamiechung"
     github: "JamieChung"
-    about: "Jamie is a Program Manager at Bing Ads &mdash; The primary montezation arm for the search engine: Bing."
+    about: "Jamie is a Program Manager at Bing Ads &mdash; Microsoft's paid search platform for Bing."
 
   - name: "Ian"
     instagram: "middleclassian"
     github: "iandvt"
-    about: "Ian is a Software Engineer at Mission Control &mdash; Microsoft's dashboard for visualizing the health of Windows 10."
+    about: "Ian is a Software Engineer at Mission Control &mdash; Microsoft's operational hub for Windows as a Service."
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
