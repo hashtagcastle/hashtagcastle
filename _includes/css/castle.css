@@ -1,3 +1,18 @@
+@media(max-width:767px) {
+	h3 {
+		margin-top: 50px;
+	}
+}
+.profile-text {
+	margin-top: 25px;
+	display: block;
+}
+@media(min-width:767px) {
+	.profile-text {
+		display: block;
+		min-height: 130px;
+	}
+}
 .instagram-avatar {
 	border-radius: 50%;
     border: 1px solid rgba(255,255,255,.2);
