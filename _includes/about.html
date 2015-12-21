@@ -17,25 +17,24 @@
                 <p>
                     {% unless profile.linkedin == "" %}
                         <a href="http://linkedin.com/in/{{profile.linkedin}}" class="btn btn-default btn-lg" target="_blank">
-                            <i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span>
-                        </a>
+                            <i class="fa fa-linkedin fa-fw"></i>
                     {% endunless %}
 
                     {% unless profile.instagram == "" %}
                         <a href="http://instagram.com/{{ profile.instagram }}" class="btn btn-default btn-lg" target="_blank">
-                            <i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span>
+                            <i class="fa fa-instagram fa-fw"></i>
                         </a>
                     {% endunless %}
 
                     {% unless profile.github == "" %}
                         <a href="http://github.com/{{ profile.github }}" class="btn btn-default btn-lg" target="_blank">
-                            <i class="fa fa-github fa-fw"></i> <span class="network-name">GitHub</span>
+                            <i class="fa fa-github fa-fw"></i>
                         </a>
                     {% endunless %}
 
                     {% unless profile.twitter == "" %}
                         <a href="https://twitter.com/{{ profile.twitter }}" class="btn btn-default btn-lg" target="_blank">
-                            <i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span>
+                            <i class="fa fa-twitter fa-fw"></i>
                         </a>
                     {% endunless %}
                 </p>
