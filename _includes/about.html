@@ -15,12 +15,29 @@
                 </a>
                 <p class="profile-text">{{ profile.about }}</p>
                 <p>
-                    <a href="http://instagram.com/{{ profile.instagram }}" class="btn btn-default btn-lg" target="_blank">
-                        <i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span>
-                    </a>
-                    <a href="http://github.com/{{ profile.github }}" class="btn btn-default btn-lg" target="_blank">
-                        <i class="fa fa-github fa-fw"></i> <span class="network-name">GitHub</span>
-                    </a>
+                    {% unless profile.linkedin == "" %}
+                        <a href="http://linkedin.com/in/{{profile.linkedin}}" class="btn btn-default btn-lg" target="_blank">
+                            <i class="fa fa-linkedin fa-fw"></i> <span class="network-name">LinkedIn</span>
+                        </a>
+                    {% endunless %}
+
+                    {% unless profile.instagram == "" %}
+                        <a href="http://instagram.com/{{ profile.instagram }}" class="btn btn-default btn-lg" target="_blank">
+                            <i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span>
+                        </a>
+                    {% endunless %}
+
+                    {% unless profile.github == "" %}
+                        <a href="http://github.com/{{ profile.github }}" class="btn btn-default btn-lg" target="_blank">
+                            <i class="fa fa-github fa-fw"></i> <span class="network-name">GitHub</span>
+                        </a>
+                    {% endunless %}
+
+                    {% unless profile.twitter == "" %}
+                        <a href="https://twitter.com/{{ profile.twitter }}" class="btn btn-default btn-lg" target="_blank">
+                            <i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span>
+                        </a>
+                    {% endunless %}
                 </p>
             </div>
             {% endfor %}
